@@ -16,6 +16,8 @@
 
 #include "harness/testHarness.h"
 
+// testing the push capabilities
+
 int main(int argc, const char *argv[])
 {
     return runTestHarness(argc, argv, test_registry::getInstance().num_tests(),
